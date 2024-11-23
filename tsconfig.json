@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "strict": true
+  },
+  "include": [
+    "src",
+  ],
+  "exclude": [
+    "node_modules",
+    "resources",
+  ],
+  "compileOnSave": false
+}

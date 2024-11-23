@@ -1,11 +1,20 @@
 {
-  "name": "risklike-game",
-  "version": "1.0.0",
-  "description": "A board game with world building. ",
-  "main": "index.ts",
+  "name": "risk-like game",
+  "version": "0.1.0",
+  "description": "A risk-like game created with the intention of getting sued.",
+  "main": "index.js",
   "scripts": {
+    "watch": "esbuild src/main.ts --watch --bundle --sourcemap --outdir=resources/dist",
+    "build": "esbuild src/main.ts --minify --bundle --outdir=resources/dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.24.0",
+    "prettier": "^3.3.3"
+  },
+  "dependencies": {
+    "typescript": "^5.7.2"
+  }
 }
